@@ -2,12 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e655cfe-d4ee-40c5-b666-eefda8f59649" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/auth-react-native.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/styles.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/layout/layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/screens/auth/auth.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/screens/profile/profile.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/ui/button.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/ui/field.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/ui/loader.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/firebase.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/hooks/useAuth.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/navigation/navigation.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/navigation/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/providers/authProvider.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/babel.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/babel.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
@@ -21,6 +31,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2I7ArA4lcnzRSFMTzOjFzonz8GR" />
   <component name="ProjectViewState">
@@ -36,12 +49,21 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/ticklere/WebstormProjects/auth-react-native",
+    "last_opened_file_path": "/Users/ticklere/WebstormProjects/auth-react-native/app/hooks",
     "nodejs_package_manager_path": "yarn",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "ts.external.directory.path": "/Users/ticklere/WebstormProjects/auth-react-native/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/hooks" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -50,12 +72,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669522444519</updated>
-      <workItem from="1669522445639" duration="704000" />
+      <workItem from="1669522445639" duration="1630000" />
+      <workItem from="1669524084334" duration="14811000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/app.d.ts" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
