@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e655cfe-d4ee-40c5-b666-eefda8f59649" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/hooks/useProfile.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/screens/home/header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/screens/home/header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/providers/authProvider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/providers/authProvider.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/screens/profile/profile.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/screens/profile/profile.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/hooks/useProfile.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/hooks/useProfile.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/styles.ts" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +60,7 @@
       <updated>1669522444519</updated>
       <workItem from="1669522445639" duration="1630000" />
       <workItem from="1669524084334" duration="16531000" />
-      <workItem from="1669617683173" duration="8389000" />
+      <workItem from="1669617683173" duration="11421000" />
     </task>
     <servers />
   </component>

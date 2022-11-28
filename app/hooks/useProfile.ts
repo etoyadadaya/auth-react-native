@@ -30,5 +30,5 @@ export const useProfile = () => {
 
 	return useMemo(() => ({
 		profile, isLoading, name, setName
-	}), [isLoading]);
+	}), [isLoading, name]);
 }
