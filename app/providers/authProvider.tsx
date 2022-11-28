@@ -37,6 +37,7 @@ export const AuthProvider: FC<IAuth> = ({children}) => {
 
 			await addDoc(collection(db, "users"), {
 				uid: user.uid,
+				name: email,
 				email: email,
 			});
 		} catch (error: any) {
