@@ -2,24 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e655cfe-d4ee-40c5-b666-eefda8f59649" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/components/layout/layout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/screens/auth/auth.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/screens/profile/profile.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/ui/button.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/ui/field.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/ui/loader.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/firebase.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/hooks/useAuth.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/navigation/navigation.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/navigation/types.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/providers/authProvider.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/screens/home/header.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/screens/home/home.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/ui/avatar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/discord.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/babel.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/babel.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/screens/profile/profile.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/screens/profile/profile.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/firebase.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/firebase.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/navigation/navigation.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/navigation/navigation.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/providers/authProvider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/providers/authProvider.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +42,7 @@
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "/Users/ticklere/WebstormProjects/auth-react-native/app/hooks",
     "nodejs_package_manager_path": "yarn",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "discord-application",
     "ts.external.directory.path": "/Users/ticklere/WebstormProjects/auth-react-native/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
@@ -73,7 +64,8 @@
       <option name="presentableId" value="Default" />
       <updated>1669522444519</updated>
       <workItem from="1669522445639" duration="1630000" />
-      <workItem from="1669524084334" duration="14811000" />
+      <workItem from="1669524084334" duration="16531000" />
+      <workItem from="1669617683173" duration="6591000" />
     </task>
     <servers />
   </component>

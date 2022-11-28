@@ -1,4 +1,4 @@
-import React, {createContext, FC, useEffect, useMemo, useState} from "react";
+import React, {createContext, FC, ReactNode, useEffect, useMemo, useState} from "react";
 import {User, onAuthStateChanged} from "firebase/auth";
 import {addDoc, collection} from "firebase/firestore";
 import {Alert} from "react-native";
@@ -13,7 +13,7 @@ interface IContext {
 }
 
 interface IAuth {
-	children: React.ReactNode;
+	children: ReactNode;
 }
 
 export const AuthContext = createContext<IContext>({} as IContext);
@@ -36,8 +36,8 @@ export const AuthProvider: FC<IAuth> = ({children}) => {
 			const {user} = await register(email, password);
 
 			await addDoc(collection(db, "users"), {
-				_id: user.uid,
-				displayName: "A B O B A",
+				uid: user.uid,
+				email: email,
 			});
 		} catch (error: any) {
 			Alert.alert("Error: registration:", error);

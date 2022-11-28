@@ -15,6 +15,7 @@ const firebaseConfig = {
 initializeApp(firebaseConfig);
 
 export const auth = getAuth();
+export const db = getFirestore();
 
 export const register = (email: string, password: string) => {
 	return createUserWithEmailAndPassword(auth, email, password);
@@ -25,5 +26,3 @@ export const login = (email: string, password: string) => {
 }
 
 export const logout = () => signOut(auth);
-
-export const db = getFirestore();
