@@ -32,24 +32,24 @@ const Auth: FC = () => {
 				<View className="mx-5 justify-center items-center h-full">
 					<View className="w-9/12">
 						<Text className="text-center text-gray-800 text-2xl font-bold mb-2">
-							{isReg ? "Sign Up" : "Sign In"}
+							{isReg ? "Регистрация" : "Вход"}
 						</Text>
 						{isLoading ? <Loader /> : <>
 							<Field
 									onChange={val => setData({...data, email: val})}
-									placeholder={"Enter Email"}
+									placeholder={"Введите почту"}
 									val={data.email}
 							/>
 							<Field
 									onChange={val => setData({...data, password: val})}
-									placeholder={"Enter Password"}
+									placeholder={"Введите пароль"}
 									val={data.password}
 									isSecure={true}
 							/>
-							<Button onPress={authHandler} title={"Login"}/>
+							<Button onPress={authHandler} title={isReg ? "Зарегистрироваться" : "Войти"}/>
 							<Pressable onPress={() => setIsReg(!isReg)}>
 								<Text className="text-gray-800 opacity-30 text-right text-sm">
-									{isReg ? "Login" : "Register"}
+									{isReg ? "Войти" : "Зарегистрироваться"}
 								</Text>
 							</Pressable>
 						</>}

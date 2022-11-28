@@ -27,7 +27,7 @@ export const useUpdateProfile = (changeName: string, docId: string) => {
 				setIsLoading(false)
 			}, 3000);
 		} catch (error: any) {
-			Alert.alert("Profile update error", error.message);
+			Alert.alert("Ошибка обновления профиля", error.message);
 		} finally {
 			setIsLoading(false);
 		}

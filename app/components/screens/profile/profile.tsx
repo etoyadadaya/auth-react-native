@@ -22,15 +22,15 @@ const Profile: FC = () => {
 					{isSuccess && (
 							<View className="bg-green-500 p-3 py-2 rounded-lg">
 								<Text className="text-white text-center">
-									Profile updated successfully!
+									Профиль обновлен успешно!
 								</Text>
 							</View>
 					)}
 
 					{(isProfileLoading || isLoading) ? <Loader/> : <>
-						<Field onChange={setName} val={name} placeholder="Enter name"/>
-						<Button onPress={updateProfile} title="Update Profile"/>
-						<Button onPress={logout} title="Logout"/>
+						<Field onChange={setName} val={name} placeholder="Введите имя"/>
+						<Button onPress={updateProfile} title="Обновить профиль"/>
+						<Button onPress={logout} title="Выйти"/>
 					</>}
 				</View>
 			</Layout>

@@ -41,7 +41,7 @@ export const AuthProvider: FC<IAuth> = ({children}) => {
 				email: email,
 			});
 		} catch (error: any) {
-			Alert.alert("Error: registration:", error);
+			Alert.alert("Ошибка: ошибка регистрации:", error);
 		} finally {
 			setIsLoading(false);
 		}
@@ -52,7 +52,7 @@ export const AuthProvider: FC<IAuth> = ({children}) => {
 		try {
 			await login(email, password);
 		} catch (error: any) {
-			Alert.alert("Error: login:", error);
+			Alert.alert("Ошибка: ошибка входа:", error);
 		} finally {
 			setIsLoading(false);
 		}
@@ -63,7 +63,7 @@ export const AuthProvider: FC<IAuth> = ({children}) => {
 		try {
 			await logout();
 		} catch (error: any) {
-			Alert.alert("Error: logout:", error);
+			Alert.alert("Ошибка: ошибка выхода:", error);
 		} finally {
 			setIsLoading(false);
 		}
