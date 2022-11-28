@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "marquessy",
-    "slug": "marquessy",
+    "name": "auth-react-native",
+    "slug": "auth-react-native",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",

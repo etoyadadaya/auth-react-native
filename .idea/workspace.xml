@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3e655cfe-d4ee-40c5-b666-eefda8f59649" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/app/components/layout/footer/footer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/layout/footer/menu.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/layout/footer/navItem.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/layout/footer/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/screens/more/more.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/screens/payments/payments.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/screens/services/services.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/screens/support/support.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/navigation/navigation.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/navigation/navigation.tsx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2I7ArA4lcnzRSFMTzOjFzonz8GR" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/ticklere/WebstormProjects/auth-react-native/app/hooks",
+    "nodejs_package_manager_path": "yarn",
+    "settings.editor.selected.configurable": "discord-application",
+    "ts.external.directory.path": "/Users/ticklere/WebstormProjects/auth-react-native/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/hooks" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3e655cfe-d4ee-40c5-b666-eefda8f59649" name="Changes" comment="" />
+      <created>1669522444519</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1669522444519</updated>
+      <workItem from="1669522445639" duration="1630000" />
+      <workItem from="1669524084334" duration="16531000" />
+      <workItem from="1669617683173" duration="15737000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/app.d.ts" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
