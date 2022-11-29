@@ -1,10 +1,10 @@
-import {AuthProvider} from "./app/providers/authProvider";
-import Navigation from "./app/navigation/navigation";
+import Navigation from "./src/navigation/navigation";
+import {Auth} from "@services/auth/auth";
 
 export default function App() {
   return (
-    <AuthProvider>
+    <Auth>
       <Navigation />
-    </AuthProvider>
+    </Auth>
   );
 }
