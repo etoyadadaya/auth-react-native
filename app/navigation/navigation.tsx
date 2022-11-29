@@ -9,6 +9,7 @@ import Payments from "../components/screens/payments/payments";
 import Support from "../components/screens/support/support";
 import Footer from "../components/layout/footer/footer";
 import Services from "../components/screens/services/services";
+import More from "../components/screens/more/more";
 
 const Stack = createNativeStackNavigator()
 
@@ -47,7 +48,7 @@ const Navigation: FC = () => {
 								<Stack.Screen name={"Payments"} component={Payments}/>
 								<Stack.Screen name={"Services"} component={Services}/>
 								<Stack.Screen name={"Support"} component={Support}/>
-								<Stack.Screen name={"More"} component={Support}/>
+								<Stack.Screen name={"More"} component={More}/>
 							</>
 					) : (
 							<Stack.Screen name={"Auth"} component={Auth}/>

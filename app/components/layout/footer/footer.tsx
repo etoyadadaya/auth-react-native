@@ -11,7 +11,7 @@ interface IFooter {
 
 const Footer: FC<IFooter> = ({navigate, currentRoute}) => {
 	return (
-			<View style={styles.view} className="px-4 flex-row justify-between items-center w-full bg-gray-50 px-0 pb-10 pt-2">
+			<View style={styles.view} className="px-4 flex-row justify-between items-center w-full bg-gray-50 px-0 pb-2 pt-2">
 				{menu.map(item => (
 						<NavItem
 								key={item.title}
