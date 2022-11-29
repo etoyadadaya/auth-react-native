@@ -5,14 +5,64 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3e655cfe-d4ee-40c5-b666-eefda8f59649" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/components/screens/more/menu/Menu.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/screens/more/menu/list.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/screens/more/menu/menuItem.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/screens/more/menu/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/layouts/footer/footer.types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/layouts/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/layouts/layout/layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/layouts/layout/layout.types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/screens/auth/auth.types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/screens/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/avatar/avatar.types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/button/button.types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/input/input.types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hooks/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hooks/useProfile/useProfile.types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/auth/auth.types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/types/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/types/navigation/navigation.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/layout/footer/footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/layout/footer/footer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/screens/more/more.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/screens/more/more.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/navigation/navigation.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/navigation/navigation.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/layout/footer/footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layouts/footer/footer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/layout/footer/menu.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layouts/footer/menu.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/layout/footer/navItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layouts/footer/navItem.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/layout/footer/types.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/layout/layout.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/screens/auth/auth.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/screens/auth/auth.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/screens/home/header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layouts/header/header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/screens/home/home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/screens/home/home.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/screens/more/menu/Menu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/menu/menu.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/screens/more/menu/list.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/menu/list.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/screens/more/menu/menuItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/menu/menuItem.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/screens/more/menu/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/menu/menu.types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/screens/more/more.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/screens/more/more.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/screens/payments/payments.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/screens/payments/payments.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/screens/profile/profile.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/screens/profile/profile.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/screens/services/services.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/screens/services/services.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/screens/support/support.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/screens/support/support.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/ui/avatar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/avatar/avatar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/ui/button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/button/button.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/ui/field.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/input/input.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/ui/loader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/loader/loader.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/firebase.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/firebase/firebase.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/hooks/useAuth.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/useAuth/useAuth.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/hooks/useProfile.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/useProfile/useProfile.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/hooks/useUpdateProfile.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/useUpdateProfile/useUpdateProfile.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/navigation/navigation.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/navigation/navigation.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/navigation/types.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/providers/authProvider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/auth/auth.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/adaptive-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/adaptive-icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/favicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/favicon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/splash.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/splash.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/babel.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/babel.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/navigation.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/navigation.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,11 +72,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -42,36 +92,42 @@
     <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2I7ArA4lcnzRSFMTzOjFzonz8GR" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/ticklere/WebstormProjects/auth-react-native/app/hooks",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "yarn",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "ts.external.directory.path": "/Users/etoyadadaya/auth-react-native/node_modules/typescript/lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/ticklere/WebstormProjects/auth-react-native/app/hooks&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.TypeScript&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/etoyadadaya/auth-react-native/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app/hooks" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/services/firebase" />
+      <recent name="$PROJECT_DIR$/src/services/auth" />
+      <recent name="$PROJECT_DIR$/src/components/layout/header" />
+      <recent name="$PROJECT_DIR$/src/components/layout/layout" />
+      <recent name="$PROJECT_DIR$/src/components/ui" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -85,7 +141,9 @@
       <workItem from="1669522445639" duration="1630000" />
       <workItem from="1669524084334" duration="16531000" />
       <workItem from="1669617683173" duration="15737000" />
-      <workItem from="1669711083127" duration="3231000" />
+      <workItem from="1669711083127" duration="5317000" />
+      <workItem from="1669717232419" duration="5324000" />
+      <workItem from="1669728336656" duration="2955000" />
     </task>
     <servers />
   </component>
