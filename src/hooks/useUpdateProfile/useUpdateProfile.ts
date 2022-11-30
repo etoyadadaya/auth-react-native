@@ -1,7 +1,7 @@
 import {useState} from "react";
 import {Alert} from "react-native";
 import {updateDoc, doc} from "firebase/firestore";
-import {useAuth} from "@hooks/index";
+import {useAuth} from "../useAuth/useAuth";
 import {db} from "@services/index";
 
 export const useUpdateProfile = (changeName: string, docId: string) => {

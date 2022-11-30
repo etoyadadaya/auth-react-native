@@ -1,7 +1,7 @@
 import {useEffect, useMemo, useState} from "react";
 import {collection, limit, onSnapshot, query, where} from "firebase/firestore";
 import {IProfile} from "./useProfile.types";
-import {useAuth} from "@hooks/index";
+import {useAuth} from "../useAuth/useAuth";
 import {db} from "@services/index";
 
 export const useProfile = () => {
